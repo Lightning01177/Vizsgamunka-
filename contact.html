@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapcsolat</title>
+    <link rel="icon" type="image/svg+xml" href="images/caffee.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stlye.css">
+</head>
+<body>
+    <nav class="topnav">
+        <a href="index.html" class="active">Malacka Kávézó</a>
+        <div id="myLinks">
+            <a href="index.html">Főoldal</a>
+            <a href="menu.html">Kínálat</a>
+            <a href="gallery.html">Galéria</a>
+            <a href="contact.html">Kapcsolat</a>
+        </div> 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <main style="padding-left:16px" class="contact-main">
+        <form class="contact-form">
+            <h1>Kapcsolat</h1>
+
+            <p class="contact-text">
+                Írj nekünk üzenetet vagy foglalj asztalt előre!
+            </p>
+
+            <label for="name">Név</label>
+            <input type="text" id="name" name="name" placeholder="Írd be a neved" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Írd be az emailed" required>
+
+            <label for="message">Üzenet</label>
+            <textarea id="message" name="message" placeholder="Üzeneted..." required></textarea>
+
+            <button type="submit">Küldés</button>
+        </form>
+
+        <section class="contact-info">
+            <h2>Elérhetőségeink</h2>
+            <p>📍 Cím: 1051 Budapest, Malacka utca 7.</p>
+            <p>📞 Telefon: +36 20 123 4567</p>
+            <p>✉ Email: info@malackakavezo.hu</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

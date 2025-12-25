@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galéria</title>
+    <link rel="icon" type="image/svg+xml" href="images/caffee.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stlye.css">
+</head>
+<body>
+    <nav class="topnav">
+        <a href="index.html" class="active">Malacka Kávézó</a>
+        <div id="myLinks">
+            <a href="index.html">Főoldal</a>
+            <a href="menu.html">Kínálat</a>
+            <a href="gallery.html">Galéria</a>
+            <a href="contact.html">Kapcsolat</a>
+        </div> 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <main style="padding-left:16px">
+       <h1>Galéria</h1>
+        <p class="gallery-text">
+            Pillanatok a Malacka Kávézó mindennapjaiból
+        </p>
+
+        <section class="gallery">
+            <img src="images/img.jpg" onclick="openLightbox(this)">
+            <img src="images/img2.jpg" onclick="openLightbox(this)">
+            <img src="images/img3.jpg" onclick="openLightbox(this)">
+            <img src="images/img4.jpg" onclick="openLightbox(this)">
+            <img src="images/img5.jpg" onclick="openLightbox(this)">
+            <img src="images/img6.jpg" onclick="openLightbox(this)">
+            <img src="images/img7.jpg" onclick="openLightbox(this)">
+            <img src="images/img8.jpg" onclick="openLightbox(this)">
+            <img src="images/img9.jpg" onclick="openLightbox(this)">
+            <img src="images/img10.jpg" onclick="openLightbox(this)">
+            <img src="images/img11.jpg" onclick="openLightbox(this)">
+            <img src="images/img12.jpg" onclick="openLightbox(this)">
+            <img src="images/img13.jpg" onclick="openLightbox(this)">
+            <img src="images/img14.jpg" onclick="openLightbox(this)">
+        </section>
+    </main>
+
+    <div id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
