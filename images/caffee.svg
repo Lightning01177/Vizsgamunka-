@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Csésze -->
+  <rect x="14" y="22" width="28" height="20" rx="4" fill="#6f4e37"></rect>
+  
+  <!-- Fül -->
+  <path d="M42 26c6 0 8 10 0 10" fill="none" stroke="#6f4e37" stroke-width="4"></path>
+  
+  <!-- Alj -->
+  <rect x="18" y="44" width="20" height="4" rx="2" fill="#6f4e37"></rect>
+
+  <!-- Gőz -->
+  <path d="M24 18c0-4 4-4 4-8" stroke="#c49a6c" stroke-width="3" fill="none"></path>
+  <path d="M32 18c0-4 4-4 4-8" stroke="#c49a6c" stroke-width="3" fill="none"></path>
+</svg>
