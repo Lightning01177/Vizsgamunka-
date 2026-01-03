@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: auto;
-  background-color: #555;
+  background-color: #6f4e37;
   color: white;
 }
 
@@ -24,20 +24,19 @@ body {
 }
 
 .topnav a.icon {
-  background: black;
+  background: #785339;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.topnav #myLinks a:hover {
+  color: #d2a77d;
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #a57a50;
   color: white;
 }
 
@@ -193,7 +192,7 @@ body {
 .contact-form button {
   background-color: #6f4e37;
   color: white;
-  padding: 12px;
+  padding: 12px 4px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -221,7 +220,7 @@ body {
 /* Reszponzív */
 @media (max-width: 600px) {
   .contact-main {
-    padding: 15px;
+    padding: 16px;
   }
 
   .contact-form input,
@@ -230,4 +229,136 @@ body {
     font-size: 14px;
     padding: 8px;
   }
+}
+
+
+footer {
+  padding: 16px;
+}
+
+/* ===== FŐOLDAL ===== */
+
+.home {
+    font-family: Arial, sans-serif;
+    color: #3b2f2f;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("images/img3.jpg") center/cover no-repeat;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* GOMBOK */
+.btn {
+    background-color: #8b5a2b;
+    color: white;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.btn-outline:hover {
+  background-color: white;
+}
+
+.mini-gallery .btn:hover {
+  background-color: black;
+}
+
+.btn-outline {
+  color: #333;
+  background: #d2a77d;
+}
+
+/* FEATURES */
+.features {
+    padding: 40px 20px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #f5eee8;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.feature {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+
+/* RÓLUNK */
+.about {
+   background-color: #2b2928;
+    color: white;
+    padding: 20px 20px;
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+/* KIEMELT */
+.highlight {
+    background-color: #d2a77d;
+    color: #322c2c;
+    padding: 20px 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* MINI GALÉRIA */
+.mini-gallery {
+  color: white;
+  padding: 20px 20px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.gallery-row {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.gallery-row img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.mini-gallery .btn {
+  background: #d2a77d;
 }
