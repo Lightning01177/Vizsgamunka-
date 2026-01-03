@@ -34,16 +34,16 @@ body {
 }
 
 .header-container a {
-  display: inline-flex;      /* kulcs */
-  align-items: center;       /* vertikális közép */
-  gap: 6px;                  /* ikon–szöveg távolság */
-  white-space: nowrap;       /* ne törje a szöveget */
+  display: inline-flex;      
+  align-items: center;      
+  gap: 6px;             
+  white-space: nowrap;      
 }
 
 .svg {
   width: 20px;
   height: 20px;
-  flex-shrink: 0;            /* ne nyomódjon össze */
+  flex-shrink: 0;            
 }
 
 .topnav #myLinks a:hover {
@@ -63,25 +63,42 @@ body {
 
 /* menu.html */
 
+.menu-page {
+  padding: 40px 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-wrapper {
+  width: 100%;
+  max-width: 900px; 
+}
+
+.menu-wrapper h1 {
+  margin-bottom: 16px;
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+}
+
 .menu-table {
   width: 100%;
-  max-width: 800px;
   border-collapse: collapse;
-  margin-top: 20px;
   background-color: #8a7f73;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.082);
+  overflow: hidden;
 }
 
 .menu-table th {
-  background-color: #785339; 
+  background-color: #523a29;
   color: white;
   text-align: left;
-  padding: 12px;
+  padding: 14px;
 }
 
 .menu-table td {
-  padding: 12px;
-  border-bottom: 1px solid #ddd;
+  padding: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.347); 
 }
 
 .menu-table tr:hover {
@@ -90,8 +107,21 @@ body {
 
 .menu-table td:last-child {
   font-weight: bold;
-  color: #e3a87e;
+  white-space: nowrap;
 }
+
+.caffe {
+  background-color: #6f4e37; 
+}
+
+.tea {
+  background-color: #4f6f52; 
+}
+
+.other {
+  background-color: #8b6a4f; 
+}
+
 
 /* gallery.html */
 
@@ -226,7 +256,7 @@ body {
   padding: 15px;
   background-color: #f3e5d8;
   border-radius: 6px;
-  box-shadow: 0 0 20px rgba(255,255,255,0.2);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.211);
 }
 
 .contact-info h2 {

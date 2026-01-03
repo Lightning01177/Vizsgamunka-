@@ -10,7 +10,12 @@
 </head>
 <body>
     <nav class="topnav">
-        <a href="index.html" class="active">Malacka Kávézó</a>
+        <div class="header-container">
+            <a href="#home" class="active">
+            <img src="images/caffee.svg" class="svg" alt="">
+            Malacka Kávézó
+            </a>
+        </div>
         <div id="myLinks">
             <a href="index.html">Főoldal</a>
             <a href="menu.html">Kínálat</a>
@@ -38,8 +43,10 @@
 
             <label for="message">Üzenet</label>
             <textarea id="message" name="message" placeholder="Üzeneted..." required></textarea>
-
-            <button type="submit">Küldés</button>
+            
+            <div class="contact-button">
+                <button type="submit">Küldés</button>
+            </div>
         </form>
 
         <section class="contact-info">
